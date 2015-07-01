@@ -21,8 +21,8 @@ mainState.create = function() {
 	game.physics.startSystem(Phaser.Physics.ARCADE);
 	game.add.tileSprite(0,0,400,490, 'background');
 	game.add.tileSprite(0, 420, 400, 490, 'ground');
-	game.add.tileSprite(0, 0,400, 200,'title');
-	game.add.tileSprite(130, 250, 170, 350, 'start-button');
+	//game.add.tileSprite(0, 0,400, 200,'title');
+	//game.add.tileSprite(130, 250, 170, 350, 'start-button');
 	this.bird = this.game.add.sprite(100, 245, 'bird');
 	//add gravity
 	game.physics.arcade.enable(this.bird);
